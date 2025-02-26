@@ -1,0 +1,47 @@
+[
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I would like to give my opinion after renting a bike"
+            }
+        ],
+        "function": "transfer_to_user_feedback"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Do you have available bikes on the 15th of August?"
+            }
+        ],
+        "function": "transfer_to_welcome"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I will book the city bike for 2 days"
+            }
+        ],
+        "function": "transfer_to_reservation"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What is the meaning of life?"
+            }
+        ],
+        "function": "None"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What is the price of a plane ticket to Paris?"
+            }
+        ],
+        "function": "None"
+    }
+]

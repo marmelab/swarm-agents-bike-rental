@@ -1,0 +1,29 @@
+[
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What is the price of a bike?"
+            }
+        ],
+        "function": "get_bikes"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Do you have available bikes on the 15th of August?"
+            }
+        ],
+        "function": "get_available_bikes"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I am confirming my reservation for the city bike"
+            }
+        ],
+        "function": "transfer_back_to_triage"
+    }
+]

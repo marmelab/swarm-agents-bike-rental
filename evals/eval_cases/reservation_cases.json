@@ -1,0 +1,38 @@
+[
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Could you remind me which model of bike I rented? My reservation id is 1234"
+            }
+        ],
+        "function": "get_reservation"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I want to book the bike id 1 for the full next week"
+            }
+        ],
+        "function": "reserve_bike"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I want to cancel my reservation id 1234"
+            }
+        ],
+        "function": "update_reservation"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I want to give a feedback"
+            }
+        ],
+        "function": "transfer_back_to_triage"
+    }
+]
